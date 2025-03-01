@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Rock-Paper-Scissor</h1>
+    <div class="game">
+        <div class="you">
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="rock.jpg" alt="rock">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="paper.jpg" alt="paper">
+                </div>
+                <div class="choice" id="scissor">
+                    <img src="scissor.jpg" alt="scissor">
+                </div>
+            </div>
+            <div class="selection-msg">
+                <p class="sel-msg">You select :</p>
+                <div class="selection">
+                    <p id="your-sle"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="for-show">
+            <div class="score-board">
+                <div class="score">
+                    <p class="your-name">You</p>
+                    <p id="user-score">0</p>
+
+                </div>
+                <div class="score">
+                    <p class="c-name">Comp</p>
+                    <p id="comp-score">0</p>
+
+                </div>
+            </div>
+            <div class="msg-container">
+                <p id="msg">Your move</p>
+            </div>
+        </div>
+
+
+        <div class="comp">
+            <div class="choices">
+                <div class="choice" id="rock">
+                    <img src="rock.jpg" alt="rock">
+                </div>
+                <div class="choice" id="paper">
+                    <img src="paper.jpg" alt="paper">
+                </div>
+                <div class="choice" id="scissor">
+                    <img src="scissor.jpg" alt="scissor">
+                </div>
+            </div>
+            <div class="selection-msg">
+                <p class="sel-msg">Comp select :</p>
+                <div class="selection">
+                    <p id="comp-sle"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Game.js"></script>
+</body>
+
+</html>
